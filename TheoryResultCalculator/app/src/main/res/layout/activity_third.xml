@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sumon.theoryresultcalculator.ThirdActivity"
+    android:background="#00BCD4">
+
+
+
+    <LinearLayout
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="#CDDC39">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:hint="Enter ID"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/search_name"
+
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="SEARCH"
+            android:id="@+id/searchB"
+            android:onClick="searchContact"
+            android:background="#CDDC39"
+            />
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/gradeWebView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00BCD4"
+        android:layout_below="@+id/search"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

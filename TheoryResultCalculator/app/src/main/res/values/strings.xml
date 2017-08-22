@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Theory Result Calculator</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_show">showActivity</string>
+    <string name="title_activity_get_cgpa">GetCgpaActivity</string>
+    <string name="title_activity_second">secondActivity</string>
+    <string name="id_hint">Student ID</string>
+    <string name="codehint">Course Code</string>
+    <string name="credithint">Course Credit</string>
+    <string name="ctmarkhint">Class Test Marks</string>
+    <string name="atndncmark">Attendance\'s Marks</string>
+    <string name="bmark">Part B\'s Marks</string>
+    <string name="amark">Part A\'s Marks</string>
+    <string name="addbtn">Add</string>
+    <string name="dltbtn">Delete</string>
+    <string name="update">Update</string>
+    <string name="cgpabtn">SEARCH BY ID</string>
+    <string name="showall">Show Database</string>
+    <string name="crs">Course</string>
+</resources>
